@@ -16,7 +16,7 @@
 html {
   scroll-behavior: smooth;
 }
-h1 {
+h2 {
   color: white;
 }
 :root {
@@ -157,7 +157,9 @@ div#apresentation span:first-child {
   color: var(--main-primary-color);
   text-transform: uppercase;
 }
-div#apresentation span {
+div#apresentation h1 {
+  margin-bottom: 0px;
+  margin-top: 0px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -302,7 +304,7 @@ img#author {
   width: 30px;
   height: 30px;
 }
-.about-content h4 {
+.about-content h3 {
   display: flex;
   justify-content: center;
 }
