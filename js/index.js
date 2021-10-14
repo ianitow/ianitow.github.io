@@ -5,7 +5,6 @@ function typeWriter(elementID, text) {
     if (i < text.length) {
       const a = (document.getElementById(elementID).innerHTML +=
         text.charAt(i));
-      console.log(document.getElementById(elementID));
       i++;
       setTimeout(write, speed);
     }
